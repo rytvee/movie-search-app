@@ -1,4 +1,4 @@
-const BACKEND_URL = 'https://movie-search-api-eight.vercel.app/api/search';
+const BACKEND_URL = 'https://movie-search-api-pi.vercel.app/api/search';
 
 function searchMovies() {
   const query = document.getElementById('searchInput').value;
