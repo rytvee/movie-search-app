@@ -44,7 +44,7 @@ function searchMovies() {
     });
 }
 
-// ✅ Listen for Enter key on the input field
+// Listen for Enter key on the input field
 document.getElementById('searchInput').addEventListener('keydown', function (event) {
   if (event.key === 'Enter') {
     searchMovies();
