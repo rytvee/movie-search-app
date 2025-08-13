@@ -4,14 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>TMDb Movie Search</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
 
-  <h1>🎥 Search Movies (TMDb API)</h1>
+  <h1>🎥 Search Movies (TMDb)</h1>
 
-  <input type="text" id="searchInput" placeholder="Enter movie name">
-  <button onclick="searchMovies()">Search</button>
+  <div class="inputs">
+    <input type="text" id="searchInput" placeholder="Enter movie name">
+    <button onclick="searchMovies()">Search</button>
+  </div>
 
   <div id="results"></div>
 
