@@ -28,19 +28,13 @@ weatherapp/
 │── style.css              # CSS for styling
 │── script.js              # JavaScript logic (API calls, UI interaction)
 │── README.md              # Documentation
-│
-├── weather-api-proxy/     # Secure backend layer (Vercel serverless functions)
-│ └── api/                 # API endpoint folder
-│   └── search.js          # Movie search API endpoint
-│
 └── images/                # Icon and images
 ```
 
 ## 🔐 API handling
-The 📂 `movie-search-api/` `api/` folder contains the serverless API endpoint used when the app is deployed to Vercel.
-Acts as a proxy between the browser and the external movie API.
-The API key is stored securely in Vercel Environment Variables (or .env for local development).
-Prevents the API key from being exposed in client-side code.
+This project uses a secured backend layer (Vercel serverless functions) which contains the TMDB serverless API endpoint used when the app is deployed to Vercel.
+This acts as a proxy between the browser and the external movie API.
+The API key is stored securely in Vercel Environment Variables to revents the API key from being exposed in client-side code.
 
 ## 📋 How It Works
 **Browser (GitHub Pages frontend)**  
